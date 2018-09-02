@@ -1,0 +1,27 @@
+Azeroth Auto Pilot: disabled
+Recount: disabled
+AzeriteTooltip: disabled
+Bartender4: enabled
+Masque: disabled
+Masque_CleanUI: disabled
+TidyPlates: disabled
+TidyPlatesHub: disabled
+TidyPlatesWidgets: disabled
+TidyPlates_Graphite: disabled
+TidyPlates_Grey: disabled
+TidyPlates_Neon: disabled
+TidyPlates_Quatre: disabled
+WeakAuras: disabled
+WeakAurasModelPaths: disabled
+WeakAurasOptions: disabled
+WeakAurasTemplates: disabled
+DBM-Core: disabled
+DBM-DefaultSkin: disabled
+DBM-GUI: disabled
+DBM-StatusBarTimers: disabled
+DBM-Azeroth-BfA: disabled
+DBM-Brawlers: disabled
+DBM-DMF: disabled
+DBM-Party-BfA: disabled
+DBM-Uldir: disabled
+DBM-WorldEvents: disabled

@@ -1,0 +1,134 @@
+VER 3 0000000000000055 "AAP_MACRO" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/click ExtraActionButton1
+END
+VER 3 0000000000000051 "Are1" "878231"
+/target Arena1
+END
+VER 3 0000000000000052 "Are2" "878232"
+/target Arena2
+END
+VER 3 0000000000000053 "Are3" "878233"
+/target Arena3
+END
+VER 3 000000000000003A "Atracción Focus" "INV_MISC_QUESTIONMARK"
+#showtooltip Atracción letal
+/cast [modifier: alt, target=focus] Atracción letal; Atracción letal
+END
+VER 3 0000000000000036 "Atracción Letal" "INV_MISC_QUESTIONMARK"
+#showtooltip Atracción letal
+/cast [modifier: shift, target=Arena1] Atracción letal;  [modifier: alt, target=Arena2] Atracción letal;[modifier: ctrl, target=Arena3] Atracción letal; Atracción letal
+END
+VER 3 0000000000000044 "BlinkStun" "132111"
+#showtooltip Roer
+/use [nopet] Levantar a muerto
+/petattack
+/cast Saltar
+/cast Roer
+END
+VER 3 000000000000003B "Cadena" "INV_MISC_QUESTIONMARK"
+#showtooltip Cadenas de hielo
+/cast [target=focus] Cadenas de hielo
+END
+VER 3 0000000000000038 "Cadenas de Hielo" "INV_MISC_QUESTIONMARK"
+#showtooltip Cadenas de hielo
+/cast [modifier: shift, target=Arena1] Cadenas de hielo;  [modifier: alt, target=Arena2] Cadenas de hielo;[modifier: ctrl, target=Arena3] Cadenas de hielo; Cadenas de hielo
+END
+VER 3 0000000000000030 "Cancel" "134148"
+/cancelaura Forma felina(Cambio de forma)
+/cancelaura Forma de viaje(Cambio de forma)
+/cancelaura Forma de oso(Cambio de forma)
+/cancelaura Garras de Shirvallah
+END
+VER 3 000000000000004B "Deep1" "INV_MISC_QUESTIONMARK"
+#showtooltip Helada mental
+/cast [target=arena1] Helada mental
+END
+VER 3 000000000000004C "Deep2" "INV_MISC_QUESTIONMARK"
+#showtooltip Helada mental
+/cast [target=arena2] Helada mental
+END
+VER 3 000000000000004D "Deep3" "INV_MISC_QUESTIONMARK"
+#showtooltip Helada mental
+/cast [target=arena3] Helada mental
+END
+VER 3 0000000000000009 "Focus" "ACHIEVEMENT_GUILDPERK_FASTTRACK_RANK2"
+/focus
+END
+VER 3 0000000000000048 "FocusA1" "237448"
+/focus Arena1
+END
+VER 3 0000000000000049 "FocusA2" "237449"
+/focus Arena2
+END
+VER 3 000000000000004A "FocusA3" "237450"
+/focus Arena3
+END
+VER 3 0000000000000045 "Grip1" "INV_MISC_QUESTIONMARK"
+#showtooltip Atracción letal
+/cast [target=arena1] Atracción letal;
+END
+VER 3 0000000000000046 "Grip2" "INV_MISC_QUESTIONMARK"
+#showtooltip Atracción letal
+/cast [target=arena2] Atracción letal;
+END
+VER 3 0000000000000047 "Grip3" "INV_MISC_QUESTIONMARK"
+#showtooltip Atracción letal
+/cast [target=arena3] Atracción letal;
+END
+VER 3 000000000000003D "Heal" "132345"
+#showtooltip Entereza ligada al hielo
+/cast Entereza ligada al hielo
+/cast Golpe letal
+END
+VER 3 0000000000000037 "Helada Mental" "INV_MISC_QUESTIONMARK"
+#showtooltip Helada mental
+/cast [@focus,harm,nodead][] Helada mental
+END
+VER 3 0000000000000040 "Ice1" "INV_MISC_QUESTIONMARK"
+#showtooltip Cadenas de hielo
+/cast [target=arena1] Cadenas de hielo
+END
+VER 3 0000000000000041 "Ice2" "INV_MISC_QUESTIONMARK"
+#showtooltip Cadenas de hielo
+/cast [target=arena2] Cadenas de hielo
+END
+VER 3 0000000000000042 "Ice3" "INV_MISC_QUESTIONMARK"
+#showtooltip Cadenas de hielo
+/cast [target=arena3] Cadenas de hielo
+END
+VER 3 000000000000003C "Interrupt" "INV_MISC_QUESTIONMARK"
+#showtooltip Helada mental
+/cast [target=focus] Helada mental
+END
+VER 3 000000000000000A "No focus" "ACHIEVEMENT_GUILDPERK_FASTTRACK_RANK2"
+/clearfocus
+END
+VER 3 0000000000000054 "Pad" "134331"
+/pad
+END
+VER 3 0000000000000043 "PetInterrup" "1121021"
+#showtooltip Saltar
+/petattack
+/cast Saltar
+END
+VER 3 000000000000003F "PetStun" "INV_MISC_QUESTIONMARK"
+#showtooltip Roer
+/petattack
+/cast Roer
+END
+VER 3 000000000000004E "Stun1" "INV_MISC_QUESTIONMARK"
+#showtooltip Asfixiar
+/cast [target=arena1] Asfixiar
+END
+VER 3 000000000000004F "Stun2" "INV_MISC_QUESTIONMARK"
+#showtooltip Asfixiar
+/cast [target=arena2] Asfixiar
+END
+VER 3 0000000000000050 "Stun3" "INV_MISC_QUESTIONMARK"
+#showtooltip Asfixiar
+/cast [target=arena3] Asfixiar
+END
+VER 3 000000000000003E "Tab" "SPELL_MISC_PETHEAL"
+/console targetnearestuseold 1
+END
