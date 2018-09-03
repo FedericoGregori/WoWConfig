@@ -25,6 +25,7 @@ RecountDB = {
 				},
 			},
 			["MainWindowVis"] = false,
+			["LastInstanceName"] = "Warsong Gulch",
 			["CurDataSet"] = "OverallData",
 			["MainWindowWidth"] = 236.999923706055,
 		},

@@ -1,0 +1,25 @@
+VER 3 0100000000000003 "FR" "INV_MISC_QUESTIONMARK"
+#showtooltip Frenzied Regeneration
+/castsequence reset=34 Bear Form(Shapeshift), Frenzied Regeneration, Moonkin Form
+END
+VER 3 0100000000000006 "Hibernate" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover] Hibernate
+END
+VER 3 0100000000000004 "RW" "INV_MISC_QUESTIONMARK"
+#showtooltip Renewal
+/castsequence reset=90 {noform=0]Bear Form(Shapeshift), Renewal, Moonkin Form
+END
+VER 3 0100000000000001 "Silence" "INV_MISC_QUESTIONMARK"
+#showtooltip Solar Beam
+/cast Mass Entanglement
+/cast Solar Beam
+END
+VER 3 0100000000000005 "Starfall" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@cursor] starfall
+END
+VER 3 0100000000000002 "Travel" "INV_MISC_QUESTIONMARK"
+#showtooltip Travel Form(Shapeshift)
+/cast [indoors]Cat Form(Shapeshift); Travel Form(Shapeshift)
+END
