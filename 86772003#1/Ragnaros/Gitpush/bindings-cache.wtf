@@ -13,19 +13,23 @@ bind 0 CLICK BT4Button54:LeftButton
 bind - NONE
 bind = NONE
 bind CTRL-F1 NONE
+bind CTRL-F2 NONE
 bind CTRL-F3 NONE
 bind CTRL-F4 NONE
 bind CTRL-1 CLICK BT4Button56:LeftButton
 bind CTRL-2 CLICK BT4Button57:LeftButton
 bind F2 CLICK BT4Button64:LeftButton
 bind F3 CLICK BT4Button65:LeftButton
+bind F SHAPESHIFTBUTTON2
 bind V SHAPESHIFTBUTTON1
 bind C CLICK BT4Button68:LeftButton
 bind SHIFT-SPACE CLICK BT4Button60:LeftButton
+bind MOUSEWHEELUP CLICK BT4Button37:LeftButton
+bind MOUSEWHEELDOWN CLICK BT4Button38:LeftButton
 bind CTRL-Q NONE
 bind CTRL-W NONE
 bind T CLICK BT4Button62:LeftButton
-bind CTRL-SPACE NONE
+bind CTRL-SPACE CLICK BT4Button85:LeftButton
 bind ALT-SHIFT-C TOGGLECHARACTER0
 bind ALT-SHIFT-Q CLICK BT4Button26:LeftButton
 bind SHIFT-F CLICK BT4Button72:LeftButton

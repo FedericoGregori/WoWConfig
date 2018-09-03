@@ -17,8 +17,8 @@ bind CTRL-F3 NONE
 bind CTRL-F4 NONE
 bind CTRL-1 CLICK BT4Button56:LeftButton
 bind CTRL-2 CLICK BT4Button57:LeftButton
-bind F2 CLICK BT4Button65:LeftButton
-bind F3 CLICK BT4Button66:LeftButton
+bind F2 CLICK BT4Button64:LeftButton
+bind F3 CLICK BT4Button65:LeftButton
 bind V SHAPESHIFTBUTTON1
 bind C CLICK BT4Button68:LeftButton
 bind SHIFT-SPACE CLICK BT4Button60:LeftButton
@@ -42,3 +42,4 @@ bind ALT-BUTTON1 NONE
 bind ALT-BUTTON2 NONE
 bind ALT-A NONE
 bind ALT-D NONE
+bind CTRL-C CLICK BT4Button67:LeftButton

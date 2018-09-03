@@ -13,6 +13,7 @@ RecountDB = {
 					["x"] = 787.500366210938,
 				},
 			},
+			["MainWindowHeight"] = 210.000137329102,
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -23,10 +24,9 @@ RecountDB = {
 					},
 				},
 			},
-			["LastInstanceName"] = "The MOTHERLODE!!",
+			["LastInstanceName"] = "The Battle for Gilneas",
 			["CurDataSet"] = "OverallData",
 			["MainWindowWidth"] = 236.999923706055,
-			["MainWindowHeight"] = 210.000137329102,
 		},
 	},
 }

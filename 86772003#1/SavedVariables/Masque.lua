@@ -10,20 +10,26 @@ MasqueDB = {
 	["profiles"] = {
 		["Default"] = {
 			["Groups"] = {
+				["WeakAuras_moonkin_form"] = {
+					["SkinID"] = "CleanUI",
+				},
 				["Bartender4_StanceBar"] = {
+					["SkinID"] = "CleanUI",
+				},
+				["Bartender4_10"] = {
+					["Inherit"] = false,
 					["SkinID"] = "CleanUI",
 				},
 				["Bartender4_Vehicle"] = {
 					["SkinID"] = "CleanUI",
 				},
-				["Bartender4_8"] = {
-					["Inherit"] = false,
+				["Masque"] = {
 					["SkinID"] = "CleanUI",
 				},
 				["Bartender4_1"] = {
 					["SkinID"] = "CleanUI",
 				},
-				["Bartender4_7"] = {
+				["WeakAuras_frenzied_regeneration"] = {
 					["Inherit"] = false,
 					["SkinID"] = "CleanUI",
 				},
@@ -34,15 +40,14 @@ MasqueDB = {
 				["Bartender4_3"] = {
 					["SkinID"] = "CleanUI",
 				},
-				["Bartender4_6"] = {
+				["WeakAuras_owlkin_frenzy"] = {
 					["SkinID"] = "CleanUI",
 				},
-				["WeakAuras_moonfire_2"] = {
+				["Bartender4_7"] = {
 					["Inherit"] = false,
 					["SkinID"] = "CleanUI",
 				},
-				["WeakAuras_starsurge"] = {
-					["Inherit"] = false,
+				["WeakAuras_solar_empowerment"] = {
 					["SkinID"] = "CleanUI",
 				},
 				["WeakAuras"] = {
@@ -54,21 +59,29 @@ MasqueDB = {
 				["Bartender4_4"] = {
 					["SkinID"] = "CleanUI",
 				},
-				["WeakAuras_solar_empowerment"] = {
+				["Bartender4_MicroMenu"] = {
 					["SkinID"] = "CleanUI",
 				},
-				["WeakAuras_sunfire_2"] = {
+				["WeakAuras_owlkin_frenzy_2"] = {
 					["Inherit"] = false,
 					["SkinID"] = "CleanUI",
 				},
 				["WeakAuras_moonfire"] = {
 					["SkinID"] = "CleanUI",
 				},
-				["WeakAuras_lunar_empowerment"] = {
+				["Bartender4_9"] = {
 					["Inherit"] = false,
 					["SkinID"] = "CleanUI",
 				},
 				["Bartender4_5"] = {
+					["SkinID"] = "CleanUI",
+				},
+				["Bartender4_8"] = {
+					["Inherit"] = false,
+					["SkinID"] = "CleanUI",
+				},
+				["WeakAuras_lunar_empowerment"] = {
+					["Inherit"] = false,
 					["SkinID"] = "CleanUI",
 				},
 				["Bartender4"] = {
@@ -77,14 +90,8 @@ MasqueDB = {
 				["Bartender4_PetBar"] = {
 					["SkinID"] = "CleanUI",
 				},
-				["WeakAuras_moonkin_form"] = {
-					["SkinID"] = "CleanUI",
-				},
-				["WeakAuras_owlkin_frenzy_2"] = {
+				["WeakAuras_sunfire_2"] = {
 					["Inherit"] = false,
-					["SkinID"] = "CleanUI",
-				},
-				["Bartender4_MicroMenu"] = {
 					["SkinID"] = "CleanUI",
 				},
 				["WeakAuras_new"] = {
@@ -94,14 +101,15 @@ MasqueDB = {
 				["WeakAuras_sunfire"] = {
 					["SkinID"] = "CleanUI",
 				},
-				["WeakAuras_owlkin_frenzy"] = {
-					["SkinID"] = "CleanUI",
-				},
-				["WeakAuras_frenzied_regeneration"] = {
+				["WeakAuras_starsurge"] = {
 					["Inherit"] = false,
 					["SkinID"] = "CleanUI",
 				},
-				["Masque"] = {
+				["WeakAuras_moonfire_2"] = {
+					["Inherit"] = false,
+					["SkinID"] = "CleanUI",
+				},
+				["Bartender4_6"] = {
 					["SkinID"] = "CleanUI",
 				},
 			},

@@ -8,49 +8,56 @@ GSEOptions = {
 	},
 	["COMMENT"] = "|cff55cc55",
 	["use14"] = false,
-	["use1"] = false,
+	["Update2305"] = true,
 	["EQUALS"] = "|cffccddee",
 	["use11"] = false,
 	["sendDebugOutputToChatWindow"] = false,
-	["KEYWORD"] = "|cff88bbdd",
+	["Updated801"] = true,
+	["CreateGlobalButtons"] = false,
 	["debug"] = false,
-	["Update2305"] = true,
-	["saveAllMacrosLocal"] = true,
+	["overflowPersonalMacros"] = false,
 	["use6"] = false,
 	["CommandColour"] = "|cFF00FF00",
-	["CONCAT"] = "|cffcc7777",
+	["autoCreateMacroStubsClass"] = true,
 	["UNKNOWN"] = "|cffff6666",
-	["Updated801"] = true,
+	["UseWLMExportFormat"] = true,
+	["DefaultImportAction"] = "MERGE",
 	["DisabledSequences"] = {
 	},
-	["use12"] = false,
-	["NUMBER"] = "|cffffaa00",
-	["useTranslator"] = false,
+	["showGSEoocqueue"] = true,
+	["DebugPrintModConditionsOnKeyPress"] = false,
 	["sendDebugOutputToDebugOutput"] = false,
 	["hideSoundErrors"] = false,
 	["ErroneousSpellID"] = {
 	},
-	["requireTarget"] = false,
+	["AddInPacks"] = {
+		["Samples"] = {
+			["Name"] = "Samples",
+			["Version"] = "2308",
+			["SequenceNames"] = {
+				"Assorted Sample Macros", -- [1]
+			},
+		},
+	},
 	["STRING"] = "|cff888888",
 	["clearUIErrors"] = false,
-	["AuthorColour"] = "|cFF00D1FF",
-	["autoCreateMacroStubsGlobal"] = false,
+	["DefaultDisabledMacroIcon"] = "Interface\\Icons\\INV_MISC_BOOK_08",
+	["resetOOC"] = true,
 	["TitleColour"] = "|cFFFF0000",
 	["hideUIErrors"] = false,
 	["initialised"] = true,
-	["ActiveSequenceVersions"] = {
-	},
+	["autoCreateMacroStubsGlobal"] = false,
 	["DebugModules"] = {
 		["Translator"] = false,
 		["GUI"] = false,
 		["Storage"] = false,
+		["Versions"] = false,
 		["Editor"] = false,
 		["API"] = false,
-		["Versions"] = false,
 		["Viewer"] = false,
 		["Transmission"] = false,
 	},
-	["resetOOC"] = true,
+	["INDENT"] = "|cffccaa88",
 	["MacroResetModifiers"] = {
 		["Alt"] = false,
 		["LeftControl"] = false,
@@ -58,65 +65,63 @@ GSEOptions = {
 		["LeftAlt"] = false,
 		["RighttButton"] = false,
 		["RightAlt"] = false,
-		["MiddleButton"] = false,
-		["Button5"] = false,
-		["Button4"] = false,
-		["LeftShift"] = false,
-		["Control"] = false,
-		["Shift"] = false,
-		["RightControl"] = false,
 		["AnyMod"] = false,
+		["Button5"] = false,
+		["Shift"] = false,
 		["RightShift"] = false,
+		["Control"] = false,
+		["RightControl"] = false,
+		["LeftShift"] = false,
+		["Button4"] = false,
+		["MiddleButton"] = false,
 	},
 	["filterList"] = {
-		["Class"] = true,
 		["All"] = false,
-		["Global"] = true,
 		["Spec"] = true,
+		["Global"] = true,
+		["Class"] = true,
 	},
 	["EmphasisColour"] = "|cFFFFFF00",
 	["UseVerboseExportFormat"] = false,
 	["WOWSHORTCUTS"] = "|cffddaaff",
 	["RealtimeParse"] = false,
 	["deleteOrphansOnLogout"] = false,
-	["INDENT"] = "|cffccaa88",
+	["ActiveSequenceVersions"] = {
+	},
 	["UnfoundSpells"] = {
+		["Rake"] = true,
+		["Rip"] = true,
+		["Ferocious Bite"] = true,
+		["Feral Frenzy"] = true,
+		["Tiger's Fury"] = true,
 		["Warrior of Elune"] = true,
-		["Ironfur"] = true,
 		["Incarnation: King of the Jungle"] = true,
+		["Wild Charge"] = true,
 		["Maul"] = true,
 		["Rage of the Sleeper"] = true,
 		["null"] = true,
-		["Frenzied Regeneration"] = true,
+		["Swipe"] = true,
 	},
-	["overflowPersonalMacros"] = false,
-	["showGSEoocqueue"] = true,
-	["AddInPacks"] = {
-		["Samples"] = {
-			["Version"] = "2308",
-			["Name"] = "Samples",
-			["SequenceNames"] = {
-				"Assorted Sample Macros", -- [1]
-			},
-		},
-	},
-	["DebugPrintModConditionsOnKeyPress"] = false,
-	["DefaultDisabledMacroIcon"] = "Interface\\Icons\\INV_MISC_BOOK_08",
+	["AuthorColour"] = "|cFF00D1FF",
+	["requireTarget"] = false,
+	["useTranslator"] = false,
+	["NUMBER"] = "|cffffaa00",
+	["use12"] = false,
 	["use13"] = false,
 	["NormalColour"] = "|cFFFFFFFF",
-	["autoCreateMacroStubsClass"] = true,
-	["UseWLMExportFormat"] = true,
+	["CONCAT"] = "|cffcc7777",
+	["saveAllMacrosLocal"] = true,
 	["setDefaultIconQuestionMark"] = true,
-	["CreateGlobalButtons"] = false,
-	["DefaultImportAction"] = "MERGE",
+	["KEYWORD"] = "|cff88bbdd",
+	["use1"] = false,
 }
 GSELibrary = {
 	[11] = {
 		["BALANCE_MULTITARGET"] = {
 			["Talents"] = "1,1,X,X,1,2,1",
 			["Default"] = 1,
-			["SpecID"] = 102,
 			["Author"] = "Tiggis",
+			["SpecID"] = 102,
 			["MacroVersions"] = {
 				{
 					"/cast Warrior of Elune", -- [1]
@@ -129,26 +134,24 @@ GSELibrary = {
 					["PostMacro"] = {
 					},
 					["StepFunction"] = "Sequential",
-					["KeyRelease"] = {
-						"/cast [@player] 191034", -- [1]
-					},
-					["PreMacro"] = {
-					},
 					["KeyPress"] = {
 						"/targetenemy [noharm][dead]", -- [1]
 						"/cast [noform] 24858", -- [2]
 						"/castsequence  reset=target  8921, 93402, null", -- [3]
+					},
+					["PreMacro"] = {
+					},
+					["KeyRelease"] = {
+						"/cast [@player] 191034", -- [1]
 					},
 				}, -- [1]
 			},
 			["ManualIntervention"] = false,
 		},
 		["SAM_GUARDIAN"] = {
-			["Help"] = "Press Shift for Maul, Ctrl for Frenzied Regeneration, and Alt for Moonfire.",
-			["Talents"] = "2332213",
 			["Default"] = 1,
-			["Author"] = "TimothyLuke",
-			["SpecID"] = 104,
+			["Talents"] = "2332213",
+			["Help"] = "Press Shift for Maul, Ctrl for Frenzied Regeneration, and Alt for Moonfire.",
 			["MacroVersions"] = {
 				{
 					"/targetenemy [noharm][dead]", -- [1]
@@ -159,10 +162,9 @@ GSELibrary = {
 					"/cast Mangle", -- [6]
 					"/castsequence Ironfur, Ironfur", -- [7]
 					"/cast Rage of the Sleeper", -- [8]
-					["KeyRelease"] = {
-					},
-					["Trinket1"] = true,
 					["StepFunction"] = "Priority",
+					["Trinket1"] = true,
+					["Trinket2"] = true,
 					["PostMacro"] = {
 					},
 					["KeyPress"] = {
@@ -173,57 +175,49 @@ GSELibrary = {
 					},
 					["PreMacro"] = {
 					},
-					["Trinket2"] = true,
+					["KeyRelease"] = {
+					},
 				}, -- [1]
 			},
+			["Author"] = "TimothyLuke",
+			["SpecID"] = 104,
 			["Icon"] = "",
 			["ManualIntervention"] = false,
 		},
-		["SAM_BALANCE"] = {
-			["Talents"] = "1323321",
+		["BALANCE_ST"] = {
+			["Talents"] = "1222121",
 			["Default"] = 1,
-			["Author"] = "John Metz",
+			["Author"] = "Bobba Fatt",
 			["SpecID"] = 102,
 			["MacroVersions"] = {
 				{
-					"/castsequence 8921, 93402, 190984, 190984, 190984, 190984, 190984", -- [1]
-					"/cast 78674", -- [2]
-					"/cast 202360", -- [3]
-					"/cast [mod:alt] 194153", -- [4]
-					"/cast [talent 5/3] 194223", -- [5]
+					"/castsequence  reset=target  Warrior of Elune", -- [1]
+					"/castsequence  reset=target/combat  190984, 190984, 190984, 93402", -- [2]
+					"/castsequence  reset=target  78674", -- [3]
+					"/castsequence  reset=target/combat  194153, 194153, 194153, 194153, 8921", -- [4]
+					"/castsequence  reset=target  78674", -- [5]
+					"/castsequence  reset=target  78674", -- [6]
 					["LoopLimit"] = "",
-					["PostMacro"] = {
+					["KeyRelease"] = {
+						"/class Starsurge", -- [1]
 					},
 					["KeyPress"] = {
+						"/targetenemy [noharm][dead]", -- [1]
+						"/cast [noform] 24858", -- [2]
+						"/castsequence  reset=target  8921, 93402, null", -- [3]
 					},
-					["KeyRelease"] = {
+					["PostMacro"] = {
 					},
 					["PreMacro"] = {
 					},
 					["StepFunction"] = "Sequential",
 				}, -- [1]
-				{
-					"/castsequence [nomod] reset=combat  8921, 93402, 190984, 190984, 190984, 190984, 78674, 190984, 190984, 190984, 190984, 78674", -- [1]
-					"/cast 202360", -- [2]
-					"/cast [mod:alt] 194153", -- [3]
-					["PostMacro"] = {
-					},
-					["KeyPress"] = {
-					},
-					["StepFunction"] = "Sequential",
-					["PreMacro"] = {
-					},
-					["KeyRelease"] = {
-					},
-				}, -- [2]
 			},
 			["ManualIntervention"] = false,
 		},
 		["SAM_FERAL"] = {
 			["Talents"] = "2,3,2,1,2,2,1",
 			["Default"] = 1,
-			["Author"] = "Ed",
-			["SpecID"] = 103,
 			["MacroVersions"] = {
 				{
 					"/cast Rake", -- [1]
@@ -263,47 +257,58 @@ GSELibrary = {
 					["PostMacro"] = {
 					},
 					["StepFunction"] = "Sequential",
-					["KeyRelease"] = {
-					},
-					["PreMacro"] = {
-					},
 					["KeyPress"] = {
 						"/cast [noform:2] Cat Form", -- [1]
 						"/cast [nostealth,nocombat] Prowl", -- [2]
 					},
+					["PreMacro"] = {
+					},
+					["KeyRelease"] = {
+					},
 				}, -- [1]
 			},
+			["Author"] = "Ed",
+			["SpecID"] = 103,
 			["Icon"] = "",
 			["ManualIntervention"] = false,
 		},
-		["BALANCE_ST"] = {
-			["Talents"] = "1222121",
+		["SAM_BALANCE"] = {
+			["Talents"] = "1323321",
 			["Default"] = 1,
 			["SpecID"] = 102,
-			["Author"] = "Bobba Fatt",
+			["Author"] = "John Metz",
 			["MacroVersions"] = {
 				{
-					"/castsequence  reset=target  Warrior of Elune", -- [1]
-					"/castsequence  reset=target/combat  190984, 190984, 190984, 93402", -- [2]
-					"/castsequence  reset=target  78674", -- [3]
-					"/castsequence  reset=target/combat  194153, 194153, 194153, 194153, 8921", -- [4]
-					"/castsequence  reset=target  78674", -- [5]
-					"/castsequence  reset=target  78674", -- [6]
+					"/castsequence 8921, 93402, 190984, 190984, 190984, 190984, 190984", -- [1]
+					"/cast 78674", -- [2]
+					"/cast 202360", -- [3]
+					"/cast [mod:alt] 194153", -- [4]
+					"/cast [talent 5/3] 194223", -- [5]
 					["LoopLimit"] = "",
-					["KeyRelease"] = {
-						"/class Starsurge", -- [1]
+					["PostMacro"] = {
 					},
 					["KeyPress"] = {
-						"/targetenemy [noharm][dead]", -- [1]
-						"/cast [noform] 24858", -- [2]
-						"/castsequence  reset=target  8921, 93402, null", -- [3]
 					},
 					["StepFunction"] = "Sequential",
 					["PreMacro"] = {
 					},
-					["PostMacro"] = {
+					["KeyRelease"] = {
 					},
 				}, -- [1]
+				{
+					"/castsequence [nomod] reset=combat  8921, 93402, 190984, 190984, 190984, 190984, 78674, 190984, 190984, 190984, 190984, 78674", -- [1]
+					"/cast 202360", -- [2]
+					"/cast [mod:alt] 194153", -- [3]
+					["PostMacro"] = {
+					},
+					["KeyPress"] = {
+					},
+					["KeyRelease"] = {
+					},
+					["PreMacro"] = {
+					},
+					["StepFunction"] = "Sequential",
+				}, -- [2]
 			},
 			["ManualIntervention"] = false,
 		},

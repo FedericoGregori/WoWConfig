@@ -6,6 +6,7 @@ WQTrackerDB = {
 	["profiles"] = {
 		["Default"] = {
 			["TutorialPopupID"] = 4,
+			["TutorialTaxyMap"] = true,
 			["quests_tracked"] = {
 				["Player-1427-09FCF57A"] = {
 				},
@@ -25,8 +26,8 @@ WQTrackerDB = {
 				["name_cache"] = {
 					["Void Warden Valsuran"] = 127300,
 					["Watcher Aival"] = 127291,
-					["Umbra'jin"] = 122004,
 					["Golrakahn"] = 124185,
+					["Umbra'jin"] = 122004,
 					["Worldsplitter Skuul"] = 127118,
 				},
 			},

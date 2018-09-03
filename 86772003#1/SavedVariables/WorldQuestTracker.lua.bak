@@ -25,8 +25,8 @@ WQTrackerDB = {
 				["name_cache"] = {
 					["Void Warden Valsuran"] = 127300,
 					["Watcher Aival"] = 127291,
-					["Golrakahn"] = 124185,
 					["Umbra'jin"] = 122004,
+					["Golrakahn"] = 124185,
 					["Worldsplitter Skuul"] = 127118,
 				},
 			},
