@@ -1,8 +1,8 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.0227,
+	["LastVersion"] = 2.0228,
 	["LastPlayerFullName"] = "Gitpush-Ragnaros",
-	["AutoSelectScales"] = false,
+	["AutoSelectScales"] = true,
 	["UpgradeTracking"] = false,
 	["LastKeybindingsSet"] = 1,
 }

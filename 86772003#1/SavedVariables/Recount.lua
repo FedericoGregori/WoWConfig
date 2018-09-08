@@ -2,6 +2,7 @@
 RecountDB = {
 	["profileKeys"] = {
 		["Gitpush - Ragnaros"] = "Gitpush - Ragnaros",
+		["Krouz - Ragnaros"] = "Krouz - Ragnaros",
 	},
 	["profiles"] = {
 		["Gitpush - Ragnaros"] = {
@@ -24,9 +25,27 @@ RecountDB = {
 					},
 				},
 			},
-			["LastInstanceName"] = "The Battle for Gilneas",
-			["CurDataSet"] = "OverallData",
+			["LastInstanceName"] = "Dalaran Sewers",
+			["CurDataSet"] = "LastFightData",
 			["MainWindowWidth"] = 236.999923706055,
+		},
+		["Krouz - Ragnaros"] = {
+			["MainWindow"] = {
+				["Position"] = {
+					["h"] = 199.999984741211,
+				},
+			},
+			["Colors"] = {
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+					["Total Bar"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["CurDataSet"] = "OverallData",
 		},
 	},
 }

@@ -6,38 +6,46 @@ MasqueDB = {
 	},
 	["profileKeys"] = {
 		["Gitpush - Ragnaros"] = "Default",
+		["Krouz - Ragnaros"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
 			["Groups"] = {
-				["Bartender4_StanceBar"] = {
-					["SkinID"] = "CleanUI",
-				},
-				["Bartender4_Vehicle"] = {
-					["SkinID"] = "CleanUI",
-				},
-				["Bartender4_8"] = {
+				["WeakAuras_berserk"] = {
 					["Inherit"] = false,
 					["SkinID"] = "CleanUI",
 				},
-				["Bartender4_1"] = {
+				["Bartender4_StanceBar"] = {
 					["SkinID"] = "CleanUI",
 				},
 				["Bartender4_7"] = {
 					["Inherit"] = false,
 					["SkinID"] = "CleanUI",
 				},
-				["WeakAuras_solar_empowerment_2"] = {
-					["Inherit"] = false,
-					["SkinID"] = "CleanUI",
-				},
 				["Bartender4_3"] = {
 					["SkinID"] = "CleanUI",
 				},
-				["Bartender4_6"] = {
+				["WeakAuras"] = {
 					["SkinID"] = "CleanUI",
 				},
-				["WeakAuras_moonfire_2"] = {
+				["Bartender4_4"] = {
+					["SkinID"] = "CleanUI",
+				},
+				["Bartender4_10"] = {
+					["Inherit"] = false,
+					["SkinID"] = "CleanUI",
+				},
+				["Bartender4_5"] = {
+					["SkinID"] = "CleanUI",
+				},
+				["Bartender4_MicroMenu"] = {
+					["SkinID"] = "CleanUI",
+				},
+				["WeakAuras_rake"] = {
+					["Inherit"] = false,
+					["SkinID"] = "CleanUI",
+				},
+				["WeakAuras_new"] = {
 					["Inherit"] = false,
 					["SkinID"] = "CleanUI",
 				},
@@ -45,49 +53,106 @@ MasqueDB = {
 					["Inherit"] = false,
 					["SkinID"] = "CleanUI",
 				},
-				["WeakAuras"] = {
+				["WeakAuras_moonfire_2"] = {
+					["Inherit"] = false,
 					["SkinID"] = "CleanUI",
 				},
-				["Bartender4_BagBar"] = {
+				["Bartender4_6"] = {
 					["SkinID"] = "CleanUI",
 				},
-				["Bartender4_4"] = {
+				["WeakAuras_rake_2"] = {
+					["Inherit"] = false,
+					["SkinID"] = "CleanUI",
+				},
+				["WeakAuras_moonfire_feral_faded"] = {
+					["Inherit"] = false,
+					["SkinID"] = "CleanUI",
+				},
+				["WeakAuras_moonfire_feral_2"] = {
+					["Inherit"] = false,
 					["SkinID"] = "CleanUI",
 				},
 				["WeakAuras_solar_empowerment"] = {
+					["SkinID"] = "CleanUI",
+				},
+				["WeakAuras_moonfire_feral_faded_2"] = {
+					["Inherit"] = false,
+					["SkinID"] = "CleanUI",
+				},
+				["WeakAuras_predatory_swiftness"] = {
+					["Inherit"] = false,
+					["SkinID"] = "CleanUI",
+				},
+				["Bartender4_Vehicle"] = {
+					["SkinID"] = "CleanUI",
+				},
+				["WeakAuras_solar_empowerment_2"] = {
+					["Inherit"] = false,
+					["SkinID"] = "CleanUI",
+				},
+				["WeakAuras_moonkin_form"] = {
+					["SkinID"] = "CleanUI",
+				},
+				["WeakAuras_frenzied_regeneration_2"] = {
+					["Inherit"] = false,
+					["SkinID"] = "CleanUI",
+				},
+				["Bartender4_2"] = {
+					["Inherit"] = false,
 					["SkinID"] = "CleanUI",
 				},
 				["WeakAuras_sunfire_2"] = {
 					["Inherit"] = false,
 					["SkinID"] = "CleanUI",
 				},
-				["WeakAuras_moonfire"] = {
+				["Bartender4_1"] = {
 					["SkinID"] = "CleanUI",
 				},
-				["WeakAuras_lunar_empowerment"] = {
+				["Bartender4_BagBar"] = {
+					["SkinID"] = "CleanUI",
+				},
+				["WeakAuras_rake_faded_2"] = {
 					["Inherit"] = false,
 					["SkinID"] = "CleanUI",
 				},
-				["Bartender4_5"] = {
-					["SkinID"] = "CleanUI",
-				},
-				["Bartender4"] = {
+				["WeakAuras_rip"] = {
+					["Inherit"] = false,
 					["SkinID"] = "CleanUI",
 				},
 				["Bartender4_PetBar"] = {
 					["SkinID"] = "CleanUI",
 				},
-				["WeakAuras_moonkin_form"] = {
+				["Bartender4_9"] = {
+					["Inherit"] = false,
+					["SkinID"] = "CleanUI",
+				},
+				["WeakAuras_moonfire_feral"] = {
+					["Inherit"] = false,
+					["SkinID"] = "CleanUI",
+				},
+				["WeakAuras_moonfire"] = {
+					["SkinID"] = "CleanUI",
+				},
+				["Bartender4_8"] = {
+					["Inherit"] = false,
+					["SkinID"] = "CleanUI",
+				},
+				["WeakAuras_rip_faded"] = {
+					["Inherit"] = false,
+					["SkinID"] = "CleanUI",
+				},
+				["Bartender4"] = {
 					["SkinID"] = "CleanUI",
 				},
 				["WeakAuras_owlkin_frenzy_2"] = {
 					["Inherit"] = false,
 					["SkinID"] = "CleanUI",
 				},
-				["Bartender4_MicroMenu"] = {
+				["WeakAuras_lunar_empowerment"] = {
+					["Inherit"] = false,
 					["SkinID"] = "CleanUI",
 				},
-				["WeakAuras_new"] = {
+				["WeakAuras_rake_faded"] = {
 					["Inherit"] = false,
 					["SkinID"] = "CleanUI",
 				},

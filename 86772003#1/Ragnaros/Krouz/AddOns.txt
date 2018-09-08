@@ -1,5 +1,5 @@
-Azeroth Auto Pilot: enabled
-Recount: enabled
+Azeroth Auto Pilot: disabled
+Recount: disabled
 AzeriteTooltip: enabled
 Bartender4: enabled
 Masque: enabled
@@ -25,3 +25,20 @@ DBM-DMF: enabled
 DBM-Party-BfA: enabled
 DBM-Uldir: enabled
 DBM-WorldEvents: enabled
+WorldQuestTracker: disabled
+Wholly: disabled
+TomTom: enabled
+AceGUI-3.0-Selectable-Panel: enabled
+GarrisonMissionManager: enabled
+Gladius: enabled
+OmniCC: enabled
+OmniCC_Config: enabled
+Pawn: enabled
+Simulationcraft: enabled
+SubSpec: enabled
+WorldQuestParty: disabled
+GSE: enabled
+GSE_GUI: enabled
+GSE_LDB: enabled
+BindPad: disabled
+RETabBinder: disabled

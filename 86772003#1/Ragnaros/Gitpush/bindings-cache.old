@@ -1,45 +1,62 @@
 BINDINGMODE 0
 bind UP NONE
-bind S CLICK BT4Button70:LeftButton
+bind S CLICK BT4Button71:LeftButton
 bind A STRAFELEFT
 bind D STRAFERIGHT
 bind Q CLICK BT4Button49:LeftButton
-bind E CLICK BT4Button52:LeftButton
-bind X CLICK BT4Button63:LeftButton
+bind E CLICK BT4Button62:LeftButton
+bind X NONE
 bind Z CLICK BT4Button50:LeftButton
 bind R CLICK BT4Button61:LeftButton
+bind SHIFT-R CLICK BT4Button32:LeftButton
+bind 7 NONE
+bind 8 NONE
 bind 9 NONE
 bind 0 CLICK BT4Button54:LeftButton
 bind - NONE
 bind = NONE
 bind CTRL-F1 NONE
+bind CTRL-F2 NONE
 bind CTRL-F3 NONE
 bind CTRL-F4 NONE
-bind CTRL-1 CLICK BT4Button56:LeftButton
-bind CTRL-2 CLICK BT4Button57:LeftButton
-bind F2 CLICK BT4Button64:LeftButton
-bind F3 CLICK BT4Button65:LeftButton
-bind V SHAPESHIFTBUTTON1
-bind C CLICK BT4Button68:LeftButton
-bind SHIFT-SPACE CLICK BT4Button60:LeftButton
+bind CTRL-1 NONE
+bind CTRL-2 NONE
+bind F2 NONE
+bind F3 NONE
+bind G CLICK BT4Button64:LeftButton
+bind F CLICK BT4Button52:LeftButton
+bind V CLICK BT4Button68:LeftButton
+bind C CLICK BT4Button51:LeftButton
+bind SHIFT-SPACE CLICK BT4Button70:LeftButton
+bind L CLICK BT4Button87:LeftButton
+bind NUMPADPLUS CAMERAZOOMIN
+bind NUMPADMINUS CAMERAZOOMOUT
+bind MOUSEWHEELUP CLICK BT4Button69:LeftButton
+bind MOUSEWHEELDOWN NONE
 bind CTRL-Q NONE
 bind CTRL-W NONE
-bind T CLICK BT4Button62:LeftButton
-bind CTRL-SPACE NONE
+bind T CLICK BT4Button63:LeftButton
+bind CTRL-SPACE ACTIONBUTTON12
 bind ALT-SHIFT-C TOGGLECHARACTER0
 bind ALT-SHIFT-Q CLICK BT4Button26:LeftButton
-bind SHIFT-F CLICK BT4Button72:LeftButton
-bind º CLICK BT4Button58:LeftButton
+bind SHIFT-F CLICK BT4Button13:LeftButton
+bind º NONE
 bind ALT-CTRL-Q CLICK BT4Button25:LeftButton
-bind ALT-E CLICK BT4Button53:LeftButton
-bind ALT-| NONE
-bind | NONE
-bind SHIFT-S CLICK BT4Button71:LeftButton
+bind ALT-E CLICK BT4Button38:LeftButton
+bind ALT-| CLICK BT4Button85:LeftButton
+bind | CLICK BT4Button88:LeftButton
+bind SHIFT-S NONE
 bind [ PAWN_COMPARE_LEFT
 bind ] PAWN_COMPARE_RIGHT
-bind ALT-º CLICK BT4Button59:LeftButton
+bind ALT-º NONE
 bind ALT-BUTTON1 NONE
 bind ALT-BUTTON2 NONE
 bind ALT-A NONE
 bind ALT-D NONE
-bind CTRL-C CLICK BT4Button67:LeftButton
+bind CTRL-C NONE
+bind ALT-SHIFT-R REPLY
+bind ALT-1 CLICK BT4Button60:LeftButton
+bind ALT-2 CLICK BT4Button57:LeftButton
+bind ALT-F NONE
+bind SHIFT-E CLICK BT4Button31:LeftButton
+bind BUTTON5 CLICK BT4Button53:LeftButton

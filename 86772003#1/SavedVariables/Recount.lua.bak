@@ -2,6 +2,7 @@
 RecountDB = {
 	["profileKeys"] = {
 		["Gitpush - Ragnaros"] = "Gitpush - Ragnaros",
+		["Krouz - Ragnaros"] = "Krouz - Ragnaros",
 	},
 	["profiles"] = {
 		["Gitpush - Ragnaros"] = {
@@ -23,10 +24,28 @@ RecountDB = {
 					},
 				},
 			},
-			["LastInstanceName"] = "The MOTHERLODE!!",
-			["CurDataSet"] = "OverallData",
+			["LastInstanceName"] = "The Tiger's Peak",
+			["CurDataSet"] = "LastFightData",
 			["MainWindowWidth"] = 236.999923706055,
 			["MainWindowHeight"] = 210.000137329102,
+		},
+		["Krouz - Ragnaros"] = {
+			["MainWindow"] = {
+				["Position"] = {
+					["h"] = 199.999984741211,
+				},
+			},
+			["Colors"] = {
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+					["Total Bar"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["CurDataSet"] = "OverallData",
 		},
 	},
 }

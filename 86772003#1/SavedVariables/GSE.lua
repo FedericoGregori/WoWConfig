@@ -25,7 +25,7 @@ GSEOptions = {
 	},
 	["use12"] = false,
 	["NUMBER"] = "|cffffaa00",
-	["useTranslator"] = false,
+	["autoCreateMacroStubsGlobal"] = false,
 	["sendDebugOutputToDebugOutput"] = false,
 	["hideSoundErrors"] = false,
 	["ErroneousSpellID"] = {
@@ -34,7 +34,7 @@ GSEOptions = {
 	["STRING"] = "|cff888888",
 	["clearUIErrors"] = false,
 	["AuthorColour"] = "|cFF00D1FF",
-	["autoCreateMacroStubsGlobal"] = false,
+	["useTranslator"] = false,
 	["TitleColour"] = "|cFFFF0000",
 	["hideUIErrors"] = false,
 	["initialised"] = true,
@@ -69,10 +69,10 @@ GSEOptions = {
 		["RightShift"] = false,
 	},
 	["filterList"] = {
-		["Class"] = true,
 		["All"] = false,
-		["Global"] = true,
 		["Spec"] = true,
+		["Global"] = true,
+		["Class"] = true,
 	},
 	["EmphasisColour"] = "|cFFFFFF00",
 	["UseVerboseExportFormat"] = false,
@@ -81,19 +81,26 @@ GSEOptions = {
 	["deleteOrphansOnLogout"] = false,
 	["INDENT"] = "|cffccaa88",
 	["UnfoundSpells"] = {
+		["Rake"] = true,
+		["Rip"] = true,
+		["Ferocious Bite"] = true,
+		["Frenzied Regeneration"] = true,
+		["Incarnation: King of the Jungle"] = true,
+		["Feral Frenzy"] = true,
+		["Tiger's Fury"] = true,
 		["Warrior of Elune"] = true,
 		["Ironfur"] = true,
-		["Incarnation: King of the Jungle"] = true,
+		["Wild Charge"] = true,
 		["Maul"] = true,
 		["Rage of the Sleeper"] = true,
 		["null"] = true,
-		["Frenzied Regeneration"] = true,
+		["Swipe"] = true,
 	},
 	["overflowPersonalMacros"] = false,
 	["showGSEoocqueue"] = true,
 	["AddInPacks"] = {
 		["Samples"] = {
-			["Version"] = "2308",
+			["Version"] = "2309",
 			["Name"] = "Samples",
 			["SequenceNames"] = {
 				"Assorted Sample Macros", -- [1]
@@ -147,8 +154,6 @@ GSELibrary = {
 			["Help"] = "Press Shift for Maul, Ctrl for Frenzied Regeneration, and Alt for Moonfire.",
 			["Talents"] = "2332213",
 			["Default"] = 1,
-			["Author"] = "TimothyLuke",
-			["SpecID"] = 104,
 			["MacroVersions"] = {
 				{
 					"/targetenemy [noharm][dead]", -- [1]
@@ -162,7 +167,7 @@ GSELibrary = {
 					["KeyRelease"] = {
 					},
 					["Trinket1"] = true,
-					["StepFunction"] = "Priority",
+					["Trinket2"] = true,
 					["PostMacro"] = {
 					},
 					["KeyPress"] = {
@@ -173,9 +178,11 @@ GSELibrary = {
 					},
 					["PreMacro"] = {
 					},
-					["Trinket2"] = true,
+					["StepFunction"] = "Priority",
 				}, -- [1]
 			},
+			["Author"] = "TimothyLuke",
+			["SpecID"] = 104,
 			["Icon"] = "",
 			["ManualIntervention"] = false,
 		},
@@ -222,8 +229,6 @@ GSELibrary = {
 		["SAM_FERAL"] = {
 			["Talents"] = "2,3,2,1,2,2,1",
 			["Default"] = 1,
-			["Author"] = "Ed",
-			["SpecID"] = 103,
 			["MacroVersions"] = {
 				{
 					"/cast Rake", -- [1]
@@ -273,6 +278,8 @@ GSELibrary = {
 					},
 				}, -- [1]
 			},
+			["Author"] = "Ed",
+			["SpecID"] = 103,
 			["Icon"] = "",
 			["ManualIntervention"] = false,
 		},

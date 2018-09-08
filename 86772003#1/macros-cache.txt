@@ -1,6 +1,6 @@
 VER 3 0000000000000055 "AAP_MACRO" "INV_MISC_QUESTIONMARK"
 #showtooltip
-/click ExtraActionButton1
+/use Goldfield's Knife
 END
 VER 3 0000000000000051 "Are1" "878231"
 /target Arena1

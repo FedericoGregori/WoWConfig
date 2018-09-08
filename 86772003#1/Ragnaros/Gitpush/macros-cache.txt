@@ -1,6 +1,22 @@
+VER 3 0100000000000009 "Cycl1" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@arena1] Cyclone(PvP Talent)
+END
+VER 3 010000000000000A "Cycl2" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@arena2] Cyclone(PvP Talent)
+END
+VER 3 010000000000000C "Cycl3" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@arena3] Cyclone(PvP Talent)
+END
 VER 3 0100000000000003 "FR" "INV_MISC_QUESTIONMARK"
 #showtooltip Frenzied Regeneration
 /castsequence reset=34 Bear Form(Shapeshift), Frenzied Regeneration, Moonkin Form
+END
+VER 3 010000000000000B "FRR" "INV_MISC_QUESTIONMARK"
+#showtooltip Frenzied Regeneration
+/castsequence reset=34 Bear Form(Shapeshift), Frenzied Regeneration
 END
 VER 3 0100000000000006 "Hibernate" "INV_MISC_QUESTIONMARK"
 #showtooltip

@@ -1,0 +1,73 @@
+VER 3 0100000000000009 "Azote" "INV_MISC_QUESTIONMARK"
+#showtooltip Azote poderoso
+/cast [modifier: shift, target=Focus] Azote poderoso; Azote poderoso
+END
+VER 3 0100000000000003 "Burst" "236164"
+#showtooltip Rabia
+/cast Furia del tigre
+/cast Encarnación: Rey de la selva(Talento, Cambio de forma)
+/cast Rabia
+/cast Vigilia de la Naturaleza
+END
+VER 3 0100000000000001 "Cat" "INV_MISC_QUESTIONMARK"
+#showtooltip Acechar
+/cast [mod:shift] Acechar; Forma felina(Cambio de forma)
+/cast [nostealth, combat] Forma felina(Cambio de forma)
+/cast [nostealth, combat] Forma felina(Cambio de forma)
+END
+VER 3 010000000000000D "Charge" "INV_MISC_QUESTIONMARK"
+#showtooltip Carga salvaje
+/cast [modifier: shift, target=Focus] Carga salvaje; Carga salvaje
+END
+VER 3 0100000000000004 "Ciclón" "INV_MISC_QUESTIONMARK"
+#showtooltip Ciclón
+/cast [modifier: shift, target=Focus] Ciclón; Ciclón
+END
+VER 3 010000000000000B "Faerie" "INV_MISC_QUESTIONMARK"
+#showtooltip Fuego feérico
+/cast [modifier: shift, target=Focus] Fuego feérico; Fuego feérico
+END
+VER 3 010000000000000A "Maim" "INV_MISC_QUESTIONMARK"
+#showtooltip Amputar
+/cast [modifier: shift, target=Focus] Amputar; Amputar
+END
+VER 3 010000000000000C "Raíces" "INV_MISC_QUESTIONMARK"
+#showtooltip Raíces enredadoras
+/cast [modifier: shift, target=Focus] Raíces enredadoras; Raíces enredadoras
+END
+VER 3 010000000000000F "Rejuvenecimiento" "INV_MISC_QUESTIONMARK"
+#showtooltip Rejuvenecimiento
+/cast [@Krouz] Rejuvenecimiento
+END
+VER 3 0100000000000013 "RejuvHealer" "INV_MISC_QUESTIONMARK"
+#showtooltip Rejuvenecimiento
+/cast [@Buflero] Rejuvenecimiento
+END
+VER 3 0100000000000012 "RejuvParty" "INV_MISC_QUESTIONMARK"
+#showtooltip Rejuvenecimiento
+/cast [@Jenos] Rejuvenecimiento
+END
+VER 3 0100000000000015 "ResgHealer" "INV_MISC_QUESTIONMARK"
+#showtooltip Resguardo de Cenarius
+/cast [@Buflero] Resguardo de Cenarius
+END
+VER 3 0100000000000011 "ResgParty" "INV_MISC_QUESTIONMARK"
+#showtooltip Resguardo de Cenarius
+/cast [@Jenos] Resguardo de Cenarius
+END
+VER 3 010000000000000E "Speed" "INV_MISC_QUESTIONMARK"
+#showtooltip 
+/castsequence Carrerilla, Rugido de estampida
+END
+VER 3 0100000000000005 "Testarazo" "INV_MISC_QUESTIONMARK"
+#showtooltip Testarazo
+/cast [modifier: shift, target=Focus] Testarazo; Testarazo
+END
+VER 3 0100000000000008 "Toque" "INV_MISC_QUESTIONMARK"
+#showtooltip Toque de sanación
+/cast [@Jenos] Toque de sanación
+END
+VER 3 0100000000000014 "ToqueHealer" "INV_MISC_QUESTIONMARK"
+#showtooltip Toque de sanación
+/cast [@Buflero] Toque de sanación
+END
